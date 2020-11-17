@@ -1,0 +1,11 @@
+@import './colors.scss';
+
+.home {
+  background-color: $altBackground;
+  color: $mainText;
+  width: 900px;
+  height: 100vh;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}

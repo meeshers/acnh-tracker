@@ -1,0 +1,25 @@
+@import './colors.scss';
+
+.title {
+  background-color: $altBackground;
+  color: $mainText;
+  text-align: center;
+}
+
+.song-list {
+  background-color: $altBackground;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+}
+
+.song {
+  background-color: $offwhite;
+  width: 200px;
+  border: 2px solid $accent;
+  padding: 10px;
+  margin: 5px;
+}

@@ -1,0 +1,12 @@
+@import './colors.scss';
+
+nav {
+  background-color: $mainText;
+  a{
+    text-decoration: none;
+    color: $altBackground;
+  }
+  ul {
+    list-style-type: none;
+  }
+}
