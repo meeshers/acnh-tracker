@@ -1,6 +1,6 @@
 # Animal Crossing New Horizons Tracker
 
-This is a personal project utilizing the [ACNH api](http://acnhapi.com/) to help keep track of specific songs, critters, fish, and artwork that is still needed for full completion.
+This is a personal project to practice React and utilizing the [ACNH api](http://acnhapi.com/) to help keep track of specific songs, critters, fish, and artwork that is still needed for full completion.
 
 ## Current progress
 
@@ -8,7 +8,7 @@ This is a personal project utilizing the [ACNH api](http://acnhapi.com/) to help
 * Sets up basic routes
 * Songs list currently displays all songs
 
-## TO DO FOR MVP
+### TO DO FOR MVP
 
 * Basic wireframes and ERD 
 * Finish the display page for all songs (with icons/images)
@@ -20,6 +20,15 @@ This is a personal project utilizing the [ACNH api](http://acnhapi.com/) to help
 * Create a more suitable color scheme
 * Allow users to add or delete items in their collection
 
-## ADDITIONAL FEATURES
+### ADDITIONAL FEATURES
 
 * Responsive site for mobile viewports
+* Pagination
+* Allow users to toggle between different list views
+* Create a search function
+
+### Technologies
+
+* HTML/CSS/JSX
+* React.js
+* SASS

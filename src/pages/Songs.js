@@ -26,7 +26,12 @@ class Songs extends Component {
     const allSongs = this.state.songs;
 
     const displaySongs = allSongs.map((song) => {
-      return <div key={song.id} className='song'>{song.name['name-USen']}</div>
+      return (
+        <div key={song.id} className='song'>
+          <img src={song.image_uri}/>
+          <p>{song.name['name-USen']}</p>
+        </div>
+      )
     })
 
     return (

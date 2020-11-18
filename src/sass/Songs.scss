@@ -20,6 +20,11 @@
   background-color: $offwhite;
   width: 200px;
   border: 2px solid $accent;
+  border-radius: 5px;
   padding: 10px;
   margin: 5px;
+  img {
+    width: 100px;
+    height: 100px;
+  }
 }
